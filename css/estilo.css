@@ -1,0 +1,491 @@
+/* ITIP - TI */
+/* CSS ZIMBA DESIGN zimbacom.com @zimbacomunica */
+/* THIAGO GREGÓRIO @thiagofcgregorio */
+
+
+html{scroll-behavior: smooth;}
+:focus {outline:0 !important;}
+
+body{zoom: 95%}
+
+
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* LANDING *//* LANDING *//**//* LANDING *//* LANDING *//* LANDING *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+
+/**//* TOPO *//* TOPO *//**//* TOPO *//* TOPO *//* TOPO *//**///* TOPO *//* TOPO */
+
+
+.navbar .collapse .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  font-size: 0.85rem;
+  margin: 0 0 3px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #fff;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.navbar .collapse .navbar-nav .nav-item .nav-link:hover{
+  color: #D3D3D3;
+}
+
+.navbar-dark .navbar-nav .nav-link span{
+  color: #01000e; 
+  background-color: #ffcb03; 
+  padding: 10px 33px 13px 33px; 
+  margin: 0 0 0 10px;
+  border-radius: 55px;
+}
+
+.navbar-dark .navbar-nav .nav-link span:hover{
+  box-shadow: 0px 5px 15px #ffcb03, 0px 5px 15px #ffcb03, 0px 1px 8px #ffcb03, 0px 1px 12px #ffcb03;
+}
+
+
+
+
+/* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */ /* BANNER PRINCIPAL */
+
+.banner-principal{
+    background-image: url(../imgs/fundo-banner-principal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    padding: 23px 0 0 0;
+}
+
+.banner-principal h4{
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-bottom: 0;
+}
+
+.banner-principal h3{
+    font-size: 1.8rem;
+    font-weight: normal;
+}
+
+.banner-principal h1{
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 21px 0;
+    margin: 0;
+    color: #fff;
+}
+
+.banner-principal a{
+  text-decoration: none;
+}
+
+.banner-principal h5{
+  text-align: center;
+  background-color: #ffcb03;
+  padding: 23px 0 23px 0;
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #01000e;
+  margin: 17px 0 0 0;
+  border-radius: 55px;
+}
+
+.banner-principal h5:hover{
+  box-shadow: 0px 5px 15px #ffcb03, 0px 5px 15px #ffcb03, 0px 1px 8px #ffcb03, 0px 1px 12px #ffcb03;
+}
+
+
+
+/* SERVIÇOS */ /* SERVIÇOS */ /* SERVIÇOS */ /* SERVIÇOS */ /* SERVIÇOS */ /* SERVIÇOS */
+
+
+.servicos{
+  background-color: #01000e;
+  color: #FFF;
+  padding: 77px 10px;
+}
+
+.servicos h2{
+  font-weight: bold;
+  color: #ffcb03;
+}
+
+.servicos h3{
+  color: #FFF;
+  font-size: 1.4rem;
+}
+
+.servicos .celula1{
+  text-align: right;
+}
+
+.servicos .celula2{
+  text-align: left;
+}
+
+.servicos h1{
+  font-weight: bold;
+  color: #FFF;
+}
+
+.servicos .card-serv{
+  background-color: transparent;
+  padding: 55px 22px;
+  border: 2px solid #FFF;
+  border-radius: 23px;
+}
+
+.servicos h4{
+  font-weight: bold;
+  font-size: 1.2rem;
+  padding: 18px 0 0 0;
+}
+
+.servicos a{
+  text-decoration: none;
+}
+
+.servicos .botao h1{
+  text-align: center;
+  background-color: #ffcb03;
+  padding: 20px 0 18px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #01000e;
+  border-radius: 55px;
+}
+
+.servicos .botao h1:hover{
+  box-shadow: 0px 5px 15px #ffcb03, 0px 5px 15px #ffcb03, 0px 1px 8px #ffcb03, 0px 1px 12px #ffcb03;
+}
+
+
+
+/* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */ /* SOBRE */
+
+.sobre{
+  background-color: #ffcb03;
+  padding: 88px 0;
+  color: #01000e;
+}
+
+.sobre h2{
+  font-weight: bold;
+}
+
+.sobre a{
+  text-decoration: none;
+}
+
+.sobre .botao h1{
+  text-align: center;
+  background-color:  #01000e;
+  padding: 20px 0 18px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #ffcb03;
+  border-radius: 55px;
+}
+
+.sobre .botao h1:hover{
+  box-shadow: 0px 5px 15px #01000e, 0px 5px 15px #01000e, 0px 1px 8px #01000e, 0px 1px 12px #01000e;
+}
+
+
+
+/* PARCERIAS */ /* PARCERIAS */ /* PARCERIAS */ /* PARCERIAS */ /* PARCERIAS */ /* PARCERIAS */
+
+.parcerias{
+  background-color: #FFF;
+  padding: 88px 0;
+  color: #01000e;
+}
+
+.parcerias h2{
+  font-weight: bold;
+}
+
+.parcerias a{
+  text-decoration: none;
+}
+
+.parcerias .botao h1{
+  text-align: center;
+  background-color: #01000e;
+  padding: 20px 0 18px 0;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 55px;
+}
+
+.parcerias .botao h1:hover{
+  box-shadow: 0px 5px 15px #01000e, 0px 5px 15px #01000e, 0px 1px 8px #01000e, 0px 1px 12px #01000e;
+}
+
+
+
+/* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */ /* FOOTER */
+
+footer{
+  background-color: #01000e;
+  padding: 150px 0  250px 0;
+  color: #fff;
+}
+
+footer a{
+  text-decoration: none;
+}
+
+
+
+/* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */ /* LAST-SECTION */
+
+  .last-section{
+    background-color: #01000e;
+    color: #fff;
+    padding: 10px 0 5px 0;
+  }
+
+  .last-section a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .last-section h5{
+    font-weight: normal;
+    font-size: 1rem;
+  }
+
+
+
+
+
+
+
+
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//* MEDIA QUERIES *//* MEDIA QUERIES *//**//* MEDIA QUERIES *//* MEDIA QUERIES *//* MEDIA QUERIES *//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+/**//**//**//**//**//**//**//**//**//**//**//**//**/
+
+
+@media(max-width: 1200px){
+
+  .navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-size: 0.7rem;
+  }
+
+}
+
+
+
+@media(max-width: 991px){
+
+  .navbar-dark .navbar-nav .nav-link{
+    font-size: 1rem;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .navbar-dark .navbar-nav .nav-link span{
+    background-color: transparent;
+    color: #FFF;
+    padding: 5px 0;
+    margin: 5px 0;
+  }
+
+  .banner-principal{
+    text-align: center;
+  }
+
+  .banner-principal .conteudo{
+    padding: 33px 0 0 0;
+  }
+
+  .banner-principal h5{
+    margin: 17px 10px 55px 10px;
+  }
+
+  .servicos br{
+    display: none;
+  }
+
+  .servicos .card-serv{
+    margin: 13px 0;
+  }
+
+  .sobre{
+    text-align: center;
+  }
+
+  .parcerias{
+    text-align: center;
+  }
+
+  .parcerias .imagem-balanca{
+    padding: 33px 20px 0 20px;
+  }
+
+  footer{
+    text-align: center;
+    padding: 150px 0;
+  }
+
+  footer .meio{
+    padding: 55px 15px;
+  }
+
+  .last-section{
+    text-align: center;
+  }
+
+
+}
+
+
+
+@media(max-width: 576px){
+
+  .banner-principal h1{
+    font-size: 2.4rem;
+    padding: 21px;
+  }
+
+  .banner-principal h5{
+    font-size: 1.1rem;
+  }
+
+  .servicos .botao h1{
+    font-size: 1.1rem;
+  }
+
+  .sobre .botao h1{
+    font-size: 1.1rem;
+  }
+
+  .parcerias .botao h1{
+    font-size: 1.1rem;
+  }
+
+
+}
+
+
+
+@media(max-width: 433px){
+
+  .topo .logo img{
+    width: 220px;
+  }
+
+  .banner-principal h1{
+    font-size: 2.1rem;
+  } 
+
+  .banner-principal .conteudo .foto img{
+    padding: 0 12px;
+  }
+
+  .servicos .card-serv{
+    padding: 30px 10px;
+  }
+
+  .card-serv img{
+    width: 100px;
+  }
+
+  .servicos h3{
+    font-size: 1.2rem;
+  }
+
+  .servicos .botao h1{
+    padding: 30px 10px;
+  }
+
+  .sobre h5{
+    font-size: 1.1rem;
+  }
+
+  .parcerias{
+    padding: 20px 0 70px 0;
+  }
+
+  footer .meio {
+        padding: 75px 15px;
+    }
+
+}
+
+
+
+@media(max-width: 353px){
+
+  .topo .logo img {
+        width: 160px;
+    }
+
+  .banner-principal br{
+    display: none;
+  }  
+
+  .banner-principal .conteudo{
+    padding: 44px 0;
+  }
+
+  .banner-principal h1 {
+        font-size: 1.7rem;
+    }
+
+  .servicos h2{
+    font-size: 1.5rem;
+  }  
+
+  .sobre h2{
+    font-size: 1.5rem;
+  }
+
+  .parcerias h2{
+    font-size: 1.5rem;
+  }
+
+  .parcerias h5{
+    font-size: 1.1rem;
+  }
+
+  footer h4{
+    font-size: 1.1rem;
+  }
+
+}
