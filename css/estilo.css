@@ -5,6 +5,7 @@
 
 html{scroll-behavior: smooth;}
 :focus {outline:0 !important;}
+a{text-decoration: none;}
 
 body{zoom: 95%}
 
@@ -319,11 +320,16 @@ footer a{
     margin: 5px 0;
   }
 
-  .navbar-dark .navbar-nav .nav-link span{
+/*.navbar-dark .navbar-nav .nav-link span{
     background-color: transparent;
     color: #FFF;
     padding: 5px 0;
     margin: 5px 0;
+  }*/
+
+
+  .banner-principal{
+    background-image: url(../imgs/fundo-banner-principal-responsivo.jpg);
   }
 
   .banner-principal{
